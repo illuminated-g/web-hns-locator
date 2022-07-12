@@ -4,6 +4,8 @@ Multipoint triangulation app for rocketry events. The idea is to load the web ap
 Initial features planned:
  - Use Geolocation and AbsoluteOrientation Sensor APIs for shooting an azimuth from a GPS locked location.
  - Azimuths get cached locally on local storage until network/internet access is available to transfer stored lines to the server.
+ - Support base stations that can import azimuths from custom hardware / mesh networks.
+ - Allow inputing locations for tracked targets
  - Viewing shows plotted lines overlayed over a satellite or topographical map.
  - Add ability to select a specific target (rocket name?) if known
  - Can select groups of lines by time window, manually, or for a known target to be used for a triangulation
